@@ -184,6 +184,10 @@ body, html {
     border-bottom: 1px solid #444;
 }
 
+.settings-section.host-management {
+    max-width: 450px;
+}
+
 .settings-section {
     display: flex;
     flex-direction: column;

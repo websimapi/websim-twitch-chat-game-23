@@ -36,7 +36,7 @@ function showWorldSettings(channel, worldName) {
     worldSettingsContainer.classList.remove('hidden');
     worldSettingsContainer.innerHTML = `
         <h2>World Settings: <span style="color: #f0f0f0;">${worldName}</span></h2>
-        <div class="settings-section">
+        <div class="settings-section host-management">
             <label for="host-input">Manage Hosts</label>
             <p style="font-size: 14px; color: #aaa; margin: 0;">Hosts can use special commands in-game.</p>
             <div class="host-input-group">
